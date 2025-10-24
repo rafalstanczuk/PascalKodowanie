@@ -1,0 +1,58 @@
+KODOWRS2.EXE - Analysis and Reconstruction
+==========================================
+
+File Information:
+- File: KODOWRS2.EXE
+- Size: 8,576 bytes (560 bytes larger than KodowRS.exe)
+- Type: MS-DOS Executable (MZ format)
+- Compiler: Borland Pascal (1983-1992)
+- Date: June 3, 2003
+
+Analysis Based on String Extraction:
+====================================
+
+Key Differences from KodowRS.exe:
+1. **Binary Encoding Algorithm**: Contains binary patterns (00000000, 00000001, etc.)
+2. **Larger File Size**: 8,576 bytes vs 8,016 bytes (560 bytes more)
+3. **Enhanced Encoding**: Uses binary representation for encoding
+4. **Same User Interface**: Identical Polish menu system
+5. **Same Author**: Rafał Stańczuk (rafalsrs@wp.pl)
+
+Binary Pattern Analysis:
+========================
+
+The executable contains binary patterns from 00000000 to 01011111:
+- 00000000 to 00011111 (0-31 in binary)
+- 00100000 to 00111111 (32-63 in binary)  
+- 01000000 to 01011111 (64-95 in binary)
+
+This suggests the encoding algorithm uses:
+1. **Binary Representation**: Characters are converted to binary strings
+2. **Pattern Matching**: Uses predefined binary patterns
+3. **Enhanced Security**: More complex than simple character shifting
+
+Expected Features:
+==================
+
+1. **Binary Encoding**: Characters converted to binary representation
+2. **Pattern-Based Encryption**: Uses binary patterns for encoding
+3. **Same User Interface**: Identical menu system to KodowRS.exe
+4. **Enhanced Security**: More complex encoding algorithm
+5. **File I/O**: Same file handling as original
+
+Reconstruction Strategy:
+========================
+
+Since this is version 2 with binary encoding:
+1. **Binary Conversion Functions**: Convert characters to/from binary
+2. **Pattern Matching**: Use binary patterns for encoding
+3. **Enhanced Algorithm**: More sophisticated than simple character shifting
+4. **Same Interface**: Maintain identical user interface
+5. **Binary String Handling**: Process binary representations
+
+The reconstruction will implement:
+- Binary string conversion
+- Pattern-based encoding/decoding
+- Enhanced security algorithm
+- Same user interface as original
+- Binary pattern matching system

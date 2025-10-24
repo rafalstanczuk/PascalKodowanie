@@ -1,0 +1,173 @@
+KodowRS.exe - Assembly Code Disassembly
+========================================
+
+File: KodowRS.exe (8,016 bytes)
+Compiler: Borland Pascal 7.0 (1983-1992)
+Date: June 3, 2003, 22:27:02
+
+Assembly Code Analysis (Starting at offset 0x400):
+==================================================
+
+Offset 0x400-0x4FF (256 bytes of code):
+
+00000400: 04 1e 57 b8 02 00 50 9a  35 06 0e 01 9a fe 05 0e
+         ; Function prologue
+         ; PUSH DS
+         ; PUSH BX
+         ; MOV AX, 0002
+         ; PUSH AX
+         ; CALL [0x10E:0635]  ; Borland Pascal runtime
+         ; CALL [0x10E:05FE]  ; Another runtime call
+
+00000410: 01 c7 06 26 04 01 00 c7  06 28 04 00 00 eb 0a 83
+         ; MOV [0426], 0001  ; Initialize counter
+         ; MOV [0428], 0000  ; Initialize high word
+         ; JMP +0A           ; Jump to loop start
+
+00000420: 06 26 04 01 83 16 28 04  00 bf ac 04 1e 57 8b 3e
+         ; INC [0426]        ; Increment counter
+         ; ADC [0428], 0000  ; Add carry to high word
+         ; MOV DI, 04AC      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; MOV DI, [0426]    ; Load counter value
+
+00000430: 26 04 8b f7 d1 e7 01 f7  81 c7 b9 00 1e 57 9a d7
+         ; [0426]            ; Memory reference
+         ; MOV SI, DI        ; Copy counter
+         ; SHL DI, 1         ; Multiply by 2
+         ; ADD DI, SI        ; Multiply by 3
+         ; ADD DI, 00B9      ; Add offset
+         ; PUSH DS
+         ; PUSH DI
+         ; CALL [0x10E:07D7] ; String operation
+
+00000440: 07 0e 01 75 2f 8d be 00  ff 16 57 bf b2 04 1e 57
+         ; [0x10E:0707]      ; Return address
+         ; JNZ +2F           ; Jump if not zero
+         ; LEA SI, [BP-100]  ; Load address of local variable
+         ; PUSH SS
+         ; PUSH SI
+         ; MOV DI, 04B2      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+
+00000450: 9a e6 06 0e 01 8b 3e 26  04 d1 e7 81 c7 00 00 1e
+         ; CALL [0x10E:06E6] ; String copy operation
+         ; MOV DI, [0426]    ; Load counter
+         ; SHL DI, 1         ; Multiply by 2
+         ; ADD DI, 0000      ; Add offset
+         ; PUSH DS
+         ; PUSH DI
+
+00000460: 57 9a 65 07 0e 01 bf b2  04 1e 57 b8 ff 00 50 9a
+         ; PUSH DI
+         ; CALL [0x10E:0765] ; String operation
+         ; MOV DI, 04B2      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; MOV AX, 00FF      ; Load 255
+         ; PUSH AX
+         ; CALL [0x10E:0700] ; String operation
+
+00000470: 00 07 0e 01 83 3e 28 04  00 75 a4 83 3e 26 04 5c
+         ; [0x10E:0700]      ; Return address
+         ; CMP [0428], 0000  ; Compare high word
+         ; JNZ -5C           ; Jump if not zero
+         ; CMP [0426], 005C  ; Compare counter with 92
+         ; JNZ -63           ; Jump if not equal
+
+00000480: 75 9d bf 24 02 1e 57 9a  a6 06 0e 01 08 c0 75 03
+         ; JNZ -63           ; Jump if not equal
+         ; MOV DI, 0224      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; CALL [0x10E:06A6] ; String operation
+         ; OR AL, AL         ; Test AL
+         ; JNZ +03           ; Jump if not zero
+
+00000490: e9 66 ff bf 24 02 1e 57  9a 9d 05 0e 01 bf de 0a
+         ; JMP 03F9          ; Jump to main menu
+         ; MOV DI, 0224      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; CALL [0x10E:059D] ; String operation
+         ; MOV DI, 0ADE      ; Load string pointer
+
+000004a0: 1e 57 bf b2 00 0e 57 31  c0 50 9a 70 06 0e 01 9a
+         ; PUSH DS
+         ; PUSH DI
+         ; MOV DI, 00B2      ; Load string pointer
+         ; PUSH SS
+         ; PUSH DI
+         ; XOR AX, AX        ; Clear AX
+         ; PUSH AX
+         ; CALL [0x10E:0670] ; String operation
+         ; CALL [0x10E:059D] ; String operation
+
+000004b0: dd 05 0e 01 bf de 09 1e  57 bf b2 05 1e 57 b8 ff
+         ; [0x10E:05DD]      ; Return address
+         ; MOV DI, 09DE      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; MOV DI, 05B2      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; MOV AX, 00FF      ; Load 255
+
+000004c0: 00 50 9a 35 06 0e 01 9a  9d 05 0e 01 bf b2 05 1e
+         ; PUSH AX
+         ; CALL [0x10E:0635] ; String operation
+         ; CALL [0x10E:059D] ; String operation
+         ; MOV DI, 05B2      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+
+000004d0: 57 bf b2 04 1e 57 9a d7  07 0e 01 74 03 e9 d0 00
+         ; PUSH DI
+         ; MOV DI, 04B2      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; CALL [0x10E:07D7] ; String comparison
+         ; JZ +03            ; Jump if equal
+         ; JMP 05A3          ; Jump to error handling
+
+000004e0: bf 24 03 1e 57 bf 68 04  1e 57 9a e6 02 0e 01 bf
+         ; MOV DI, 0324      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; MOV DI, 0468      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; CALL [0x10E:02E6] ; String operation
+
+000004f0: 24 03 1e 57 9a 69 03 0e  01 bf 24 02 1e 57 9a a6
+         ; [0324]            ; Memory reference
+         ; PUSH DS
+         ; PUSH DI
+         ; CALL [0x10E:0369] ; String operation
+         ; MOV DI, 0224      ; Load string pointer
+         ; PUSH DS
+         ; PUSH DI
+         ; CALL [0x10E:06A6] ; String operation
+
+Program Flow Analysis:
+=====================
+1. Initialization of counters and variables
+2. Main loop processing (up to 92 iterations)
+3. String operations for file handling
+4. Menu system with user input
+5. File encoding/decoding operations
+6. Error handling and validation
+
+Key Functions Identified:
+========================
+- String manipulation routines
+- File I/O operations
+- User input handling
+- Menu system
+- Encoding/decoding algorithms
+- Error checking and validation
+
+This appears to be a Borland Pascal program that implements
+a simple file encryption/decryption system with password protection.

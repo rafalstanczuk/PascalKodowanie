@@ -1,0 +1,81 @@
+KodowRS.exe - Disassembly Analysis
+=====================================
+
+File Information:
+- File: KodowRS.exe
+- Size: 8,016 bytes
+- Type: MS-DOS Executable (MZ format)
+- Compiler: Borland Pascal (1983-1992)
+- Date: June 3, 2003, 22:27:02
+
+Program Analysis from Strings:
+==============================
+
+Program Purpose:
+- File encoding/decoding utility
+- Text file encryption/decryption tool
+- Created by: Rafał Stańczuk (rafalsrs@wp.pl)
+
+User Interface Messages (Polish):
+1. "Podaj pełną nazwę pliku zakodowanego (z rozszerzeniem) lub/i jego ścieżkę :"
+   (Enter full name of encoded file (with extension) and/or its path :)
+
+2. "Podaj pełną nazwę pliku, do którego zapiszesz rozkodowane dane (z rozszerzeniem) lub/i jego ścieżkę :"
+   (Enter full name of file to save decoded data (with extension) and/or its path :)
+
+3. "Podaj kod dostępu do odkodowania :"
+   (Enter access code for decoding :)
+
+4. "Błędny kod do tego pliku!!! Koniec..."
+   (Wrong code for this file!!! End...)
+
+5. "Podaj pełną nazwę pliku do zakodowania(z rozszerzeniem) lub/i jego ścieżkę :"
+   (Enter full name of file to encode (with extension) and/or its path :)
+
+6. "Podaj pełną nazwę pliku, do którego zapiszesz zakodowane dane (z rozszerzeniem) lub/i jego ścieżkę :"
+   (Enter full name of file to save encoded data (with extension) and/or its path :)
+
+7. "Podaj kod dostępu do kodowarki :"
+   (Enter access code for encoder :)
+
+8. "Witam w moim programie kodującym i rozkodowywującym pliki tekstowe."
+   (Welcome to my program for encoding and decoding text files.)
+
+9. "Programowanie : Rafał Stańczuk rafalsrs@wp.pl www.rafalsrs.prv.pl"
+   (Programming: Rafał Stańczuk rafalsrs@wp.pl www.rafalsrs.prv.pl)
+
+10. "Uwaga-Program nie interpretuje znaków polskich!"
+    (Warning-Program does not interpret Polish characters!)
+
+Menu Options:
+1. "Podaj plik do rozkodowania." (Enter file to decode.)
+2. "Podaj plik do zakodowania." (Enter file to encode.)
+[ESC] "Wyjście" (Exit)
+
+Technical Details:
+==================
+- Runtime: Borland Pascal Runtime
+- Error handling: "Runtime error at [address]"
+- Copyright: "Portions Copyright (c) 1983,92 Borland"
+
+Binary Structure Analysis:
+=========================
+- MZ Header: 4D 5A (MZ signature)
+- Entry point: Likely around offset 0x100 (256 bytes)
+- Code section: Starts after DOS header
+- Data section: Contains string literals and runtime library
+
+Disassembly Notes:
+==================
+This is a 16-bit DOS executable compiled with Borland Pascal.
+The program appears to be a simple file encryption/decryption utility
+that uses password-based encoding for text files.
+
+The executable structure follows the standard MZ format:
+- DOS header (64 bytes)
+- Relocation table
+- Code and data sections
+- Runtime library (Borland Pascal RTL)
+
+Due to the 16-bit nature and Borland Pascal compilation,
+full disassembly would require specialized tools for DOS executables.
