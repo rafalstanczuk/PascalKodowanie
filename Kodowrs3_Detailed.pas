@@ -3,7 +3,7 @@ program Kodowrs3_Detailed;
 {*
  * Kodowrs3 - File Encoding/Decoding Utility Version 3.0
  * Detailed reconstruction based on disassembly analysis
- * Original: Rafał Stańczuk (rafalsrs@wp.pl)
+ * Original: Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
  * Date: June 3, 2003, 22:28:14
  * Version: 3.0
  * 
@@ -57,7 +57,7 @@ procedure DisplayVersionInfo;
 begin
     writeln('===============================================');
     writeln('Kodowrs3 - File Encoding/Decoding Utility v3.0');
-    writeln('Programowanie : Rafał Stańczuk (rafalsrs@wp.pl)');
+    writeln('Programowanie : Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)');
     writeln('Data utworzenia: 3 czerwca 2003, 22:28:14');
     writeln('===============================================');
     writeln;
@@ -69,7 +69,7 @@ begin
     clrscr;
     DisplayVersionInfo;
     writeln('Witam w moim programie kodującym i rozkodowywującym pliki tekstowe v3.0');
-    writeln('Programowanie : Rafał Stańczuk rafalsrs@wp.pl www.rafalsrs.prv.pl');
+    writeln('Programowanie : Rafał Stańczuk stanczuk.rafal@gmail.com https://github.com/rafalstanczuk');
     writeln('Uwaga-Program nie interpretuje znaków polskich!');
     writeln;
     writeln('1. Podaj plik do rozkodowania.');

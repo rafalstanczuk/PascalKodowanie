@@ -10,7 +10,7 @@ KodowRS v1.0 is a file encoding/decoding utility originally written in Borland P
 
 ## Original Program Information
 
-- **Original Author:** Rafał Stańczuk (rafalsrs@wp.pl)
+- **Original Author:** Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
 - **Original Date:** June 3, 2003
 - **Original Compiler:** Borland Pascal 7.0
 - **Original Size:** 8,016 bytes
@@ -176,8 +176,8 @@ This program represents early 2000s Pascal programming practices:
 ## Author Information
 
 **Original Author:** Rafał Stańczuk
-- Email: rafalsrs@wp.pl
-- Website: www.rafalsrs.prv.pl
+- Email: stanczuk.rafal@gmail.com (old contact rafalsrs@wp.pl)
+- Website: https://github.com/rafalstanczuk
 - Date: June 3, 2003
 
 **Reconstruction:** Based on disassembly analysis of the original executable, preserving the original functionality and user interface while adapting for modern Pascal compilers.

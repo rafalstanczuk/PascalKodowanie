@@ -278,8 +278,8 @@ chmod +x compile_*.sh
 ## 👨‍💻 **Author Information**
 
 **Original Developer:** Rafał Stańczuk
-- **Email:** rafalsrs@wp.pl
-- **Website:** www.rafalsrs.prv.pl
+- **Email:** stanczuk.rafal@gmail.com (old contact rafalsrs@wp.pl)
+- **Website:** https://github.com/rafalstanczuk
 - **Date:** June 3, 2003
 - **Context:** Early programming learning phase
 

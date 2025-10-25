@@ -14,7 +14,7 @@ Program Analysis from Strings:
 Program Purpose:
 - File encoding/decoding utility
 - Text file encryption/decryption tool
-- Created by: Rafał Stańczuk (rafalsrs@wp.pl)
+- Created by: Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
 
 User Interface Messages (Polish):
 1. "Podaj pełną nazwę pliku zakodowanego (z rozszerzeniem) lub/i jego ścieżkę :"
@@ -41,8 +41,8 @@ User Interface Messages (Polish):
 8. "Witam w moim programie kodującym i rozkodowywującym pliki tekstowe."
    (Welcome to my program for encoding and decoding text files.)
 
-9. "Programowanie : Rafał Stańczuk rafalsrs@wp.pl www.rafalsrs.prv.pl"
-   (Programming: Rafał Stańczuk rafalsrs@wp.pl www.rafalsrs.prv.pl)
+9. "Programowanie : Rafał Stańczuk stanczuk.rafal@gmail.com https://github.com/rafalstanczuk"
+   (Programming: Rafał Stańczuk stanczuk.rafal@gmail.com https://github.com/rafalstanczuk)
 
 10. "Uwaga-Program nie interpretuje znaków polskich!"
     (Warning-Program does not interpret Polish characters!)

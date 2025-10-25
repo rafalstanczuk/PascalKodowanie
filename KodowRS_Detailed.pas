@@ -3,7 +3,7 @@ program KodowRS;
 {*
  * KodowRS - File Encoding/Decoding Utility
  * Detailed reconstruction based on disassembly analysis
- * Original: Rafał Stańczuk (rafalsrs@wp.pl)
+ * Original: Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
  * Date: June 3, 2003
  * 
  * This is a more accurate reconstruction based on the assembly analysis
@@ -43,7 +43,7 @@ procedure DisplayMainMenu;
 begin
     clrscr;
     writeln('Witam w moim programie kodującym i rozkodowywującym pliki tekstowe.');
-    writeln('Programowanie : Rafał Stańczuk rafalsrs@wp.pl www.rafalsrs.prv.pl');
+    writeln('Programowanie : Rafał Stańczuk stanczuk.rafal@gmail.com https://github.com/rafalstanczuk');
     writeln('Uwaga-Program nie interpretuje znaków polskich!');
     writeln;
     writeln('1. Podaj plik do rozkodowania.');

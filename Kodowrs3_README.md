@@ -10,7 +10,7 @@ Kodowrs3 v3.0 is version 3.0 of the file encoding/decoding utility originally wr
 
 ## Original Program Information
 
-- **Original Author:** Rafał Stańczuk (rafalsrs@wp.pl)
+- **Original Author:** Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
 - **Original Date:** June 3, 2003, 22:28:14
 - **Version:** 3.0 (1 minute after KodowRS.exe)
 - **Original Compiler:** Borland Pascal 7.0
@@ -226,8 +226,8 @@ This program represents the evolution of early 2000s Pascal programming:
 ## Author Information
 
 **Original Author:** Rafał Stańczuk
-- Email: rafalsrs@wp.pl
-- Website: www.rafalsrs.prv.pl
+- Email: stanczuk.rafal@gmail.com (old contact rafalsrs@wp.pl)
+- Website: https://github.com/rafalstanczuk
 - Date: June 3, 2003, 22:28:14
 - Version: 3.0
 

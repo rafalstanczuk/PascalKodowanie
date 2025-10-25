@@ -16,7 +16,7 @@ Key Differences from KodowRS.exe:
 2. **Larger File Size**: 8,576 bytes vs 8,016 bytes (560 bytes more)
 3. **Enhanced Encoding**: Uses binary representation for encoding
 4. **Same User Interface**: Identical Polish menu system
-5. **Same Author**: Rafał Stańczuk (rafalsrs@wp.pl)
+5. **Same Author**: Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
 
 Binary Pattern Analysis:
 ========================

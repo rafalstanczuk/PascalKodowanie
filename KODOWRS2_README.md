@@ -10,7 +10,7 @@ KODOWRS2 v2.0 is version 2.0 of the file encoding/decoding utility originally wr
 
 ## Original Program Information
 
-- **Original Author:** Rafał Stańczuk (rafalsrs@wp.pl)
+- **Original Author:** Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
 - **Original Date:** June 3, 2003
 - **Version:** 2.0
 - **Original Compiler:** Borland Pascal 7.0
@@ -226,8 +226,8 @@ This program represents the evolution of early 2000s Pascal programming:
 ## Author Information
 
 **Original Author:** Rafał Stańczuk
-- Email: rafalsrs@wp.pl
-- Website: www.rafalsrs.prv.pl
+- Email: stanczuk.rafal@gmail.com (old contact rafalsrs@wp.pl)
+- Website: https://github.com/rafalstanczuk
 - Date: June 3, 2003
 - Version: 2.0
 

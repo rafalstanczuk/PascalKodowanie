@@ -3,7 +3,7 @@ program KODOWRS2;
 {*
  * KODOWRS2 - File Encoding/Decoding Utility Version 2.0
  * Reconstructed from disassembly analysis
- * Original: Rafał Stańczuk (rafalsrs@wp.pl)
+ * Original: Rafał Stańczuk (stanczuk.rafal@gmail.com - old contact rafalsrs@wp.pl)
  * Date: June 3, 2003
  * Version: 2.0
  * 
@@ -233,7 +233,7 @@ procedure ShowMenu;
 begin
     clrscr;
     writeln('Witam w moim programie kodującym i rozkodowywującym pliki tekstowe.');
-    writeln('Programowanie : Rafał Stańczuk rafalsrs@wp.pl www.rafalsrs.prv.pl');
+    writeln('Programowanie : Rafał Stańczuk stanczuk.rafal@gmail.com https://github.com/rafalstanczuk');
     writeln('Uwaga-Program nie interpretuje znaków polskich!');
     writeln;
     writeln('1. Podaj plik do rozkodowania.');
